@@ -47,6 +47,6 @@ public class Sportka {
    */
   public Integer dodatkoveCislo() {
     //TODO Vrátit sedmé číslo z osudí.
-    return osudi.indexOf(6);
+    return osudi.get(6);
   }
 }
